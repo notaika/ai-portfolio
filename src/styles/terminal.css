@@ -1,0 +1,49 @@
+.terminal-prompt {
+  position: relative;
+  white-space: nowrap;
+}
+
+.terminal-prompt::before {
+  content: "> ";
+}
+
+.terminal-prompt::after {
+  content: "";
+  animation: cursor 800ms infinite;
+  background: var(--secondary-color);
+  border-radius: 0;
+  display: inline-block;
+  height: 1em;
+  margin-left: 0.4em;
+  width: 3px;
+  bottom: -2px;
+  position: relative;
+}
+
+@keyframes cursor {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes cursor {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
