@@ -6,7 +6,7 @@ export default function Bio({ about }) {
     <div>
       {bio.map((paragraph, index) => (
         <p key={index} className="w-full mb-4">
-          {index}
+          {paragraph}
         </p>
       ))}
     </div>

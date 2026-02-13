@@ -20,6 +20,7 @@ export interface EducationData {
 
 export interface ProjectsData {
   title: string;
+  type: "Personal" | "Academic" | "Hackathon" | "BrainStation" | "Open-Source";
   techstack: string[];
   description: string;
   repo: string;

@@ -9,7 +9,7 @@ export const about: PersonalData = {
     "While my core strength lies in Web Development, I am currently focused on backend systems, diving deep into Object-Oriented Programming and Relational Databases.",
     "Beyond the coding, I love messing around with 3D-printing and Fusion360.",
   ],
-  pfp: "",
+  pfp: "/",
   socials: [
     {
       platform: "GitHub",
@@ -51,26 +51,46 @@ export const education: EducationData[] = [
 export const projects: ProjectsData[] = [
   {
     title: "Ha.BIT",
+    type: "Personal",
     techstack: ["JavaScript", "React", "Node.js", "MySQL"],
     description:
       "A gamified habit tracker and productivity app designed to help users build and maintain positive habits through a reward system and a cozy 8-bit adventure RPG interface.",
     repo: "https://github.com/notaika/Ha.BIT",
-    images: ["/screenshots/habit/dashboard.png"],
+    images: ["src/assets/screenshots/habit/dashboard.png"],
   },
   {
     title: "PotLuck",
+    type: "Academic",
     techstack: ["JavaScript", "Bootstrap", "Node.js", "Firebase", "Firestore"],
     description:
       "A community-oriented recipe platform built to make cooking simple, accessible, and collaborative. The app focuses on one‑dish cooking, where every recipe is intentionally designed to be prepared using a single pot, bowl, pan, or similar cooking container. ",
     repo: "https://github.com/notaika/1800_202530_BBY14",
-    images: ["/screenshots/instock/inventory-page.png"],
+    images: ["src/assets/screenshots/instock/inventory-page.png"],
   },
   {
     title: "templ.it",
+    type: "Hackathon",
     techstack: ["JavaScript", "Electron", "HTML", "CSS"],
     description:
       "A utility desktop app that streamlines your workflow by creating complex folder and file structures from a saved template. Stop manually creating src, components, and utils folders; create one template instead.",
     repo: "https://github.com/notaika/templ.it",
-    images: ["/screenshots/brainflix/video.png"],
+    images: ["src/assets/screenshots/brainflix/video.png"],
+  },
+  {
+    title: "Instock",
+    type: "BrainStation",
+    techstack: [],
+    description:
+      "A full-stack inventory management system developed to enhance scalability and performance for a Fortune 500 client. The existing system was struggling under heavy traffic, and my team (5 people) was tasked to address these challenges. This project was developed by an Agile team using a modern tech stack.",
+    repo: "",
+    images: ["src/assets/screenshots/instock/inventory-page.png"],
+  },
+  {
+    title: "Portfolio",
+    type: "Personal",
+    techstack: [],
+    description: "",
+    repo: "",
+    images: ["src/assets/screenshots/portfolio/portfolio.png"],
   },
 ];

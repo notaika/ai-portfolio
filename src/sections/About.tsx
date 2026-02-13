@@ -14,6 +14,9 @@ interface AboutProps {
 export default function About({ about, education }: AboutProps) {
   return (
     <section>
+      <h2 className="logo terminal-prompt text-4xl">
+        <span className="text-yellow-400 mx-2">/</span>about
+      </h2>
       <div className="flex justify-end">
         <div role="tablist" className="-mb-0.5 flex gap-3">
           <button
@@ -41,15 +44,15 @@ export default function About({ about, education }: AboutProps) {
 
       <div
         role="tabpanel"
-        className="mt-4 flex flex-col-reverse md:flex-row items-center">
-        <div className="biography">
+        className="flex flex-col-reverse md:flex-row items-center md:justify-center mt-4">
+        <div className="biography md:text-[14px] xl:text-[16px] md:w-2/3 lg:max-w-2xl mt-4">
           <Bio about={about} />
         </div>
-        <div className="icon flex justify-center">
+        <div className="icon flex justify-center md:w-1/3 my-4">
           <img
-            src={placeholder}
+            src={icon}
             alt="hi"
-            className="rounded-full w-xs max-w-sm"
+            className="rounded-full w-xs max-w-sm md:w-4/5 lg:max-w-90"
           />
         </div>
       </div>

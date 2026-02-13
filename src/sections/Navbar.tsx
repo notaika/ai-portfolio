@@ -5,12 +5,12 @@ export default function Navbar() {
     <nav className="flex flex-col items-center text-center sm:flex-row sm:text-left sm:justify-between py-4 px-6 shadow sm:items-baseline w-full">
       <div className="terminal-log">
         <div className="logo terminal-prompt">
-          <a href="#" className="no-style blue">
+          <a href="#" className="">
             ai.
           </a>
         </div>
       </div>
-      <ul className="flex w-100 sm:w-1/3 mt-2 justify-between items-center">
+      <ul className="flex w-100 sm:w-1/2 md:w-1/3 lg:w-1/4 mt-2 justify-between items-center">
         <li>
           <a className="menu-item text-xs " href="#">
             <span className="text-green-400 mr-1">/</span>home

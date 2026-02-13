@@ -3,8 +3,15 @@
   white-space: nowrap;
 }
 
+.terminal code {
+  font-size: var(--global-font-size);
+  font-style: normal;
+}
+
 .terminal-prompt::before {
-  content: "> ";
+  content: ">";
+  line-height: 1;
+  text-align: baseline;
 }
 
 .terminal-prompt::after {
