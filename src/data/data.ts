@@ -9,7 +9,7 @@ export const about: PersonalData = {
     "While my core strength lies in Web Development, I am currently focused on backend systems, diving deep into Object-Oriented Programming and Relational Databases.",
     "Beyond the coding, I love messing around with 3D-printing and Fusion360.",
   ],
-  pfp: "/",
+  pfp: "src/assets/icons/aika-icon.png",
   socials: [
     {
       platform: "GitHub",
@@ -22,6 +22,16 @@ export const about: PersonalData = {
       icon: "",
     },
   ],
+  techstack: [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Java",
+    "SQL",
+    "C",
+    "TypeScript",
+    "Python",
+  ],
 };
 
 export const education: EducationData[] = [
@@ -30,7 +40,7 @@ export const education: EducationData[] = [
     program: "Computer Systems Technology",
     certification: "Diploma",
     location: "Burnaby, BC",
-    timeline: "2025 - Present",
+    timeline: "September 2025 - Present",
   },
   {
     institution: "BrainStation",
@@ -44,7 +54,7 @@ export const education: EducationData[] = [
     program: "Cellular Biology",
     certification: "Bachelor of Science",
     location: "Vancouver, BC",
-    timeline: "Graduated 2024",
+    timeline: "Graduated June 2024",
   },
 ];
 

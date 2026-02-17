@@ -8,6 +8,7 @@ export interface PersonalData {
   bio: string[];
   pfp?: string;
   socials?: SocialLink[];
+  techstack: string[];
 }
 
 export interface EducationData {
